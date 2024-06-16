@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Newfound Land</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+          integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<nav class="main-menu">
+    <button id="open-nav">
+        <img src="/assets/menu.svg" alt="menu"/>
+    </button>
+    <ul>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#article">Main Article</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+    </ul>
+</nav>
+
+<section class="hero" id="top">
+    <h1> Explore Newfoundland </h1>
+    <p> Discover some of the greatest geological stories on planet </p>
+</section>
+
+<section class="info">
+    <section class="info-container">
+        <p class="subtitle">Travel</p>
+        <h2> A Guide to Newfoundland </h2>
+        <hr/>
+        <div class="info-avatar">
+            <img src="assets/chris-pratt.jpg" alt="Chris Pratt"/>
+            <p> August 19, 2020. Dr. Starlord </p>
+        </div>
+    </section>
+</section>
+
+<section class="top-blog">
+    <figure>
+        <img src="assets/whale-in-ocean.jpg" alt="Whale in ocean"/>
+        <figcaption> Hiking in Newfoundland: Courtesy of Clair Volkman</figcaption>
+    </figure>
+
+    <article>
+        <h4>Unesco World Heritage Sites</h4>
+        <p>Offering UNESCO World Heritage Sites, sprawling national parks, picturesque seaside
+            villages, a world-class food scene, and quite possibly the country’s friendliest locals, you’d
+            think Newfoundland would be swarming with tourists. However, this Canadian island that
+            sits off the eastern coast of the country, flanking Nova Scotia and Prince Edward Island, sees
+            a mere fraction of the visitors of British Columbia and Alberta.</p>
+    </article>
+
+</section>
+
+<section class="article" id="article">
+    <h4>A Rugged, Remote Foodie Haven</h4>
+    <p>“It’s a rugged remoteness. The glacial-swept highlands conjure up fairy tales, the mighty
+        fjords breed a difficulty of exploration that boasts an incredible sense of accomplishment,”
+        said Andy Nichols, expert outdoor guide of Great Canadian Trails. “To sum up the
+        community here, it’s simple: It’s a place where no one locks their doors.” Offering UNESCO
+        World Heritage Sites, sprawling national parks, picturesque seaside villages, a world-class
+        food scene, and quite possibly the country’s friendliest locals, you’d think Newfoundland
+        would be swarming with tourists. However, this Canadian island that sits off the eastern coast
+        of the country, flanking Nova Scotia and Prince Edward Island, sees a mere fraction of the
+        visitors of British Columbia and Alberta. Newfoundland’s most inspiring national park, Gros
+        Morne, sees a quarter of the visitors of Alberta’s famed Banff National Park and Lake
+        Louise—two parks that are anticipating more than 5 million visitors this year alone. If you’re
+        craving hikes that both challenge and inspire; food that’s as local as you can possibly get
+        (think fish caught off the harbor where you’re eating); and secluded campsites, skip the
+        crowds of Alberta and head to Newfoundland instead. Get 1 year of American Vogue + a
+        limited edition tote. Subscribe now. “Newfoundland has all that western Canada has, from
+        soaring mountain ranges to deep valleys and gorges, yet it is truly untouched. You can go and
+        hike in peak season with a handful of people, not thousands,” said Ian Stone, guide and
+        partner of Great Canadian Trails. “You can experience a national park that is not bursting at
+        the seams with people but bursting with natural surroundings, moments of peace. I feel this is
+        the type of place that Banff was 100 years ago.”</p>
+</section>
+
+<section class="image">
+    <div class="wrapper">
+        <video muted autoplay playsinline loop>
+            <source src="./assets/flower.webm" type="video/webm"/>
+            <source src="./assets/flower.mp4" type="video/mp4"/>
+        </video>
+    </div>
+
+</section>
+
+<section class="gallery" id="gallery">
+    <h2 class="icon"><img src="/assets/whale.png" alt="whale"/> Geology </h2>
+
+    <div class="img">
+        <img src="/assets/image-1.jpeg"/>
+        <p> Beneath you Feet</p>
+    </div>
+
+    <div class="img">
+        <img src="/assets/image-2.jpeg"/>
+        <p> Explore UNESCO Global Geo Park</p>
+    </div>
+
+    <div class="img">
+        <img src="/assets/image-3.jpeg"/>
+        <p> The Tablelands</p>
+    </div>
+</section>
+
+
+<section class="gallery">
+    <h2 class="icon"><img src="/assets/whale.png" alt="whale"/> Wildlife </h2>
+
+    <div class="img">
+        <img src="/assets/image-4.jpeg"/>
+        <p> Whale Tales </p>
+    </div>
+
+    <div class="img">
+        <img src="/assets/image-5.jpeg"/>
+        <p> Clowns of the Sea </p>
+    </div>
+
+    <div class="img">
+        <img src="/assets/image-6.jpeg"/>
+        <p> Cape St. Mary's Ecological Reserve </p>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <h1>Want the inside story?</h1>
+        <p>Trip ideas, travel offers, and contests. When you sign up for out newsletter or follow us on social, you're
+            always a part of the story.</p>
+
+        <form>
+            <div class="textfield">
+                <input type="email" id="email" name="email" />
+                <label for="email">Email</label>
+            </div>
+
+            <button type="submit">Sign up</button>
+        </form>
+
+        <ul>
+            <li> <a href="#"> <i class="fa-brands fa-instagram"></i> </a> </li>
+            <li> <a href="#"> <i class="fa-brands fa-facebook"></i> </a> </li>
+            <li> <a href="#"> <i class="fa-brands fa-youtube"></i> </a> </li>
+        </ul>
+    </div>
+</footer>
+
+
+<script>
+    const mainMenu = document.querySelector("nav.main-menu");
+
+    mainMenu.querySelector("#open-nav").addEventListener("click", () => {
+        mainMenu.classList.toggle("open");
+    });
+
+    window.addEventListener("scroll", () => {
+        const top = window.scrollY;
+
+        if(top === 0) mainMenu.classList.remove("mini");
+        else mainMenu.classList.add("mini");
+    });
+</script>
+
+</body>
+</html>
